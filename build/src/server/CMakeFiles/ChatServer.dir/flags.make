@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nothing/code/Development/muduo_chat/include -I/home/nothing/code/Development/muduo_chat/include/server -I/home/nothing/code/Development/muduo_chat/thirdparty
+CXX_INCLUDES = -I/home/nothing/code/Development/muduo_chat/include -I/home/nothing/code/Development/muduo_chat/include/server -I/home/nothing/code/Development/muduo_chat/thirdparty -I/home/nothing/code/Development/muduo_chat/include/server/db
 
 CXX_FLAGS = -g -g
 

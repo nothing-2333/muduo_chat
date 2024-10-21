@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
 project(chat)
 
 # 配置预编译选项
@@ -11,6 +11,7 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/include/server)
 include_directories(${PROJECT_SOURCE_DIR}/thirdparty)
+include_directories(${PROJECT_SOURCE_DIR}/include/server/db)
 
 # 加载子目录
 add_subdirectory(src)

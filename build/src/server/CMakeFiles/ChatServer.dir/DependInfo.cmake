@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp" "src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o.d"
   "/home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp" "src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o.d"
+  "/home/nothing/code/Development/muduo_chat/src/server/db/db.cpp" "src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o.d"
   "/home/nothing/code/Development/muduo_chat/src/server/main.cpp" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o.d"
   )
 
