@@ -73,63 +73,93 @@ src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o: src/server/CMakeFiles/Ch
 src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp
 src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o -MF CMakeFiles/ChatServer.dir/chat_server.cpp.o.d -o CMakeFiles/ChatServer.dir/chat_server.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o -MF CMakeFiles/ChatServer.dir/chat_server.cpp.o.d -o CMakeFiles/ChatServer.dir/chat_server.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp
 
 src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/chat_server.cpp.i"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp > CMakeFiles/ChatServer.dir/chat_server.cpp.i
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp > CMakeFiles/ChatServer.dir/chat_server.cpp.i
 
 src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/chat_server.cpp.s"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp -o CMakeFiles/ChatServer.dir/chat_server.cpp.s
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/chat_server.cpp -o CMakeFiles/ChatServer.dir/chat_server.cpp.s
 
 src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp
 src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o -MF CMakeFiles/ChatServer.dir/chat_service.cpp.o.d -o CMakeFiles/ChatServer.dir/chat_service.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o -MF CMakeFiles/ChatServer.dir/chat_service.cpp.o.d -o CMakeFiles/ChatServer.dir/chat_service.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp
 
 src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/chat_service.cpp.i"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp > CMakeFiles/ChatServer.dir/chat_service.cpp.i
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp > CMakeFiles/ChatServer.dir/chat_service.cpp.i
 
 src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/chat_service.cpp.s"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp -o CMakeFiles/ChatServer.dir/chat_service.cpp.s
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp -o CMakeFiles/ChatServer.dir/chat_service.cpp.s
 
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/main.cpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/main.cpp.o -MF CMakeFiles/ChatServer.dir/main.cpp.o.d -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/main.cpp
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/main.cpp.o -MF CMakeFiles/ChatServer.dir/main.cpp.o.d -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/main.cpp
 
 src/server/CMakeFiles/ChatServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/main.cpp.i"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/main.cpp > CMakeFiles/ChatServer.dir/main.cpp.i
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/main.cpp > CMakeFiles/ChatServer.dir/main.cpp.i
 
 src/server/CMakeFiles/ChatServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/main.cpp.s"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/main.cpp -o CMakeFiles/ChatServer.dir/main.cpp.s
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/main.cpp -o CMakeFiles/ChatServer.dir/main.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/offline_message_model.cpp
+src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o -MF CMakeFiles/ChatServer.dir/offline_message_model.cpp.o.d -o CMakeFiles/ChatServer.dir/offline_message_model.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/offline_message_model.cpp
+
+src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/offline_message_model.cpp.i"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/offline_message_model.cpp > CMakeFiles/ChatServer.dir/offline_message_model.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/offline_message_model.cpp.s"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/offline_message_model.cpp -o CMakeFiles/ChatServer.dir/offline_message_model.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/user_model.cpp
+src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o -MF CMakeFiles/ChatServer.dir/user_model.cpp.o.d -o CMakeFiles/ChatServer.dir/user_model.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/user_model.cpp
+
+src/server/CMakeFiles/ChatServer.dir/user_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/user_model.cpp.i"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/user_model.cpp > CMakeFiles/ChatServer.dir/user_model.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/user_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/user_model.cpp.s"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/user_model.cpp -o CMakeFiles/ChatServer.dir/user_model.cpp.s
 
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: src/server/CMakeFiles/ChatServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o -MF CMakeFiles/ChatServer.dir/db/db.cpp.o.d -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o -MF CMakeFiles/ChatServer.dir/db/db.cpp.o.d -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp
 
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/db/db.cpp.i"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp > CMakeFiles/ChatServer.dir/db/db.cpp.i
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp > CMakeFiles/ChatServer.dir/db/db.cpp.i
 
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/db/db.cpp.s"
-	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp -o CMakeFiles/ChatServer.dir/db/db.cpp.s
+	cd /home/nothing/code/Development/muduo_chat/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nothing/code/Development/muduo_chat/src/server/db/db.cpp -o CMakeFiles/ChatServer.dir/db/db.cpp.s
 
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/chat_server.cpp.o" \
 "CMakeFiles/ChatServer.dir/chat_service.cpp.o" \
 "CMakeFiles/ChatServer.dir/main.cpp.o" \
+"CMakeFiles/ChatServer.dir/offline_message_model.cpp.o" \
+"CMakeFiles/ChatServer.dir/user_model.cpp.o" \
 "CMakeFiles/ChatServer.dir/db/db.cpp.o"
 
 # External object files for target ChatServer
@@ -138,10 +168,12 @@ ChatServer_EXTERNAL_OBJECTS =
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/main.cpp.o
+/home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o
+/home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/build.make
 /home/nothing/code/Development/muduo_chat/bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/nothing/code/Development/muduo_chat/bin/ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nothing/code/Development/muduo_chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/nothing/code/Development/muduo_chat/bin/ChatServer"
 	cd /home/nothing/code/Development/muduo_chat/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChatServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -316,4 +316,12 @@ src/server/CMakeFiles/ChatServer.dir/chat_server.cpp.o: \
  /usr/include/muduo/net/EventLoop.h /usr/include/c++/13/atomic \
  /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
  /usr/include/muduo/net/TimerId.h \
- /home/nothing/code/Development/muduo_chat/include/server/chat_service.hpp
+ /home/nothing/code/Development/muduo_chat/include/server/chat_service.hpp \
+ /usr/include/c++/13/mutex /usr/include/c++/13/bits/chrono.h \
+ /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/nothing/code/Development/muduo_chat/include/server/user_model.hpp \
+ /home/nothing/code/Development/muduo_chat/include/server/user.hpp \
+ /home/nothing/code/Development/muduo_chat/include/server/offline_message_model.hpp

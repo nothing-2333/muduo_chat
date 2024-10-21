@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nothing/code/Development/muduo_chat/src/server/chat_service.cpp" "src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/chat_service.cpp.o.d"
   "/home/nothing/code/Development/muduo_chat/src/server/db/db.cpp" "src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o.d"
   "/home/nothing/code/Development/muduo_chat/src/server/main.cpp" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/main.cpp.o.d"
+  "/home/nothing/code/Development/muduo_chat/src/server/offline_message_model.cpp" "src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o.d"
+  "/home/nothing/code/Development/muduo_chat/src/server/user_model.cpp" "src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o" "gcc" "src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -226,6 +226,54 @@ main.cpp.s:
 	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+offline_message_model.o: offline_message_model.cpp.o
+.PHONY : offline_message_model.o
+
+# target to build an object file
+offline_message_model.cpp.o:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.o
+.PHONY : offline_message_model.cpp.o
+
+offline_message_model.i: offline_message_model.cpp.i
+.PHONY : offline_message_model.i
+
+# target to preprocess a source file
+offline_message_model.cpp.i:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.i
+.PHONY : offline_message_model.cpp.i
+
+offline_message_model.s: offline_message_model.cpp.s
+.PHONY : offline_message_model.s
+
+# target to generate assembly for a file
+offline_message_model.cpp.s:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/offline_message_model.cpp.s
+.PHONY : offline_message_model.cpp.s
+
+user_model.o: user_model.cpp.o
+.PHONY : user_model.o
+
+# target to build an object file
+user_model.cpp.o:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/user_model.cpp.o
+.PHONY : user_model.cpp.o
+
+user_model.i: user_model.cpp.i
+.PHONY : user_model.i
+
+# target to preprocess a source file
+user_model.cpp.i:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/user_model.cpp.i
+.PHONY : user_model.cpp.i
+
+user_model.s: user_model.cpp.s
+.PHONY : user_model.s
+
+# target to generate assembly for a file
+user_model.cpp.s:
+	cd /home/nothing/code/Development/muduo_chat/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/user_model.cpp.s
+.PHONY : user_model.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,6 +295,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... offline_message_model.o"
+	@echo "... offline_message_model.i"
+	@echo "... offline_message_model.s"
+	@echo "... user_model.o"
+	@echo "... user_model.i"
+	@echo "... user_model.s"
 .PHONY : help
 
 
