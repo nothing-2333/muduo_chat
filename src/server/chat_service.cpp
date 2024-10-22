@@ -180,6 +180,51 @@ void ChatService::addFriend(const TcpConnectionPtr& connection, json& js, Timest
     _friendModel.insert(friendId, userId);
 }
 
+// 创建群组
+void ChatService::createGroup(const TcpConnectionPtr& connection, json& js, Timestamp time)
+{
+    int userId = js["id"].get<int>();
+    string name = js["groupName"];
+    string desc = js["groupDesc"];
+
+    Group group(-1, name, desc);
+    if (_groupModel.createGroup(group))
+    {
+        _groupModel.addGroup(userId, group.getId(), "creator");
+    }
+}
+
+// 加入群组
+void ChatService::addGroup(const TcpConnectionPtr& connection, json& js, Timestamp time)
+{
+    int userId = js["id"];
+    int groupId = js["groupId"].get<int>();
+    _groupModel.addGroup(userId, groupId, "normal");
+}
+
+// 群组聊天
+void ChatService::groupChat(const TcpConnectionPtr& connection, json& js, Timestamp time)
+{
+    int userId = js["id"];
+    int groupId = js["groupId"].get<int>();
+    vector<int> userIdVec = _groupModel.queryGroupUsers(userId, groupId);
+
+    lock_guard<mutex> lock(_connMutex);
+    for (int id : userIdVec)
+    {
+        auto it = _userConnMap.find(id);
+        if (it != _userConnMap.end())
+        {
+            it->second->send(js.dump());
+        }
+        else
+        {
+            // 存储离线消息
+            _offlineMsgModel.insert(id, js.dump());
+        }
+    }
+}
+
 // 处理客户端异常退出
 void ChatService::clientCloseException(const TcpConnectionPtr& connection)
 {

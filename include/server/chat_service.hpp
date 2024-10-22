@@ -9,6 +9,7 @@
 #include "user_model.hpp"
 #include "offline_message_model.hpp"
 #include "friend_model.hpp"
+#include "group_model.hpp"
 
 using json = nlohmann::json;
 using namespace std;
@@ -37,6 +38,7 @@ private:
     UserModel _userModel;
     OfflineMsgModel _offlineMsgModel;
     FriendModel _friendModel;
+    GroupModel _groupModel;
 
 public:
     static ChatService* instance();
@@ -52,6 +54,15 @@ public:
 
     // 添加好友
     void addFriend(const TcpConnectionPtr& connection, json& js, Timestamp time);
+
+    // 创建群组
+    void createGroup(const TcpConnectionPtr& connection, json& js, Timestamp time);
+
+    // 加入群组
+    void addGroup(const TcpConnectionPtr& connection, json& js, Timestamp time);
+
+    // 群组聊天
+    void groupChat(const TcpConnectionPtr& connection, json& js, Timestamp time);
     
     MsgHandler getHandler(int msgId);
 
