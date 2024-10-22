@@ -3,6 +3,7 @@
 ## 一个练手的集群聊天服务器。
 
 ### mysql 数据库创建命令
+```sql
 CREATE DATABASE chat;
 use chat
 
@@ -43,8 +44,13 @@ CREATE TABLE offlinemessage (
     message TEXT NOT NULL,
     FOREIGN KEY (userid) REFERENCES user(id) ON DELETE CASCADE
 );
+```
 
 ### mysql 数据库一些查看命令
+```sql
 select * from user;
+
 desc user;
+
 show tables;
+```

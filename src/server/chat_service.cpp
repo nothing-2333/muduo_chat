@@ -21,6 +21,7 @@ ChatService::ChatService()
     _msgHandlerMap.insert({LOGIN_MSG, std::bind(&ChatService::login, this, _1, _2, _3)});
     _msgHandlerMap.insert({REG_MSG, std::bind(&ChatService::reg, this, _1, _2, _3)});
     _msgHandlerMap.insert({ONE_CHAT_MSG, std::bind(&ChatService::oneChat, this, _1, _2, _3)});
+    _msgHandlerMap.insert({ADD_FRIEND_MSG, std::bind(&ChatService::addFriend, this, _1, _2, _3)});
 }
 
 // 获取处理器
@@ -72,6 +73,22 @@ void ChatService::login(const TcpConnectionPtr& connection, json& js, Timestamp 
                 {
                     responce["offlinemsg"] = vec;
                     _offlineMsgModel.remove(id);
+                }
+
+                // 查询用户的好友信息并返回
+                vector<User> userVec = _friendModel.query(id);
+                if (!userVec.empty())
+                {
+                    vector<string> vec;
+                    for (User &user : userVec)
+                    {
+                        json js;
+                        js["id"] = user.getId();
+                        js["name"] = user.getName();
+                        js["state"] = user.getState();
+                        vec.push_back(js.dump());
+                    }
+                    responce["friends"] = vec;
                 }
 
                 connection->send(responce.dump());
@@ -150,6 +167,17 @@ void ChatService::oneChat(const TcpConnectionPtr& connection, json& js, Timestam
     // 不在线，储存消息
     _offlineMsgModel.insert(toId, js.dump());
 
+}
+
+// 添加好友
+void ChatService::addFriend(const TcpConnectionPtr& connection, json& js, Timestamp time)
+{
+    int userId = js["id"].get<int>();
+    int friendId = js["friendId"].get<int>();
+
+    // 存储好友信息
+    _friendModel.insert(userId, friendId);
+    _friendModel.insert(friendId, userId);
 }
 
 // 处理客户端异常退出

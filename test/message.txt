@@ -12,3 +12,6 @@
 // 单聊
 {"msgId": 5, "toId": 2, "id": 1, "name": "zhang san", "msg": "hello!!!"}
 {"msgId": 5, "toId": 1, "id": 2, "name": "li si", "msg": "hi!"}
+
+// 添加好友
+{"msgId": 6, "id": 1, "friendId": 2}

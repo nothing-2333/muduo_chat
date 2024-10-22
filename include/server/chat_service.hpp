@@ -8,6 +8,7 @@
 #include "json.hpp"
 #include "user_model.hpp"
 #include "offline_message_model.hpp"
+#include "friend_model.hpp"
 
 using json = nlohmann::json;
 using namespace std;
@@ -35,6 +36,7 @@ private:
     // 数据操作对象
     UserModel _userModel;
     OfflineMsgModel _offlineMsgModel;
+    FriendModel _friendModel;
 
 public:
     static ChatService* instance();
@@ -47,6 +49,9 @@ public:
 
     // 一对一聊天
     void oneChat(const TcpConnectionPtr& connection, json& js, Timestamp time);
+
+    // 添加好友
+    void addFriend(const TcpConnectionPtr& connection, json& js, Timestamp time);
     
     MsgHandler getHandler(int msgId);
 
